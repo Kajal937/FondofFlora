@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flora care</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Charmonman&family=Julius+Sans+One&family=Megrim&family=Noto+Serif+Display:ital,wght@1,200&family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Charmonman&family=Cinzel&family=Julius+Sans+One&family=Megrim&family=Noto+Serif+Display:ital,wght@1,200&family=Quicksand:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Brygada+1918:ital@1&family=Cabin+Sketch&family=Charmonman&family=Julius+Sans+One&family=Megrim&family=Square+Peg&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.814), rgba(169, 195, 222, 0.918));
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        header{
+           margin: 0px;
+           padding: 10px;
+           overflow:auto;
+          /* background-image: url(wc3.jpg);
+          background-size: cover; */
+           color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        text-align: center;
+        font-family: 'Megrim', cursive;
+        }
+        header img{
+            padding-left: 5px;
+            border-radius: 12px;
+        }
+        .tips h1{
+            font-family: 'Quicksand', sans-serif;
+            text-align: left;
+            text-align: center;
+        }
+        .tips p{
+            font-family: 'Brygada 1918', serif;
+            font-size: 23px;
+            text-align: center;
+            
+        }
+        #more{display: none;}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="plant me.jpg" alt="not found" width="170px">
+        <h1>Plants are Friends</h1>
+    </header>
+    <div class="tips">
+      <h1> 1. Choose plants based on your light</h1>
+            <p>Are the plants you love the ones you can have? Our #1 rule of (green) thumb is to determine the amount of natural lightyour space receives, and to choose your plant accordingly. If you're not sure just by looking, start by figuring out which direction your windows face.<span id="dots">...</span><span id="more">
+            
+            Generally speaking, south-facing windows give bright light, east & west-facing windows give moderate light, and north-facing windows give low light. If there's something outside your window—for example, a large tree or building—that could obstruct sunlight, make sure to take that into consideration, too. Most houseplants prefer bright, indirect sunlight, but many can tolerate lower light levels (like low light tolerant snake plants and ZZ plants).
+            If the sun is intense through your windows, you may want to add a sheer curtain to diffuse the light. Cacti and some succulents like aloe can handle brighter, direct sunlight. You don't want to overexpose or underexpose any plant so keep an eye on them if they're in very bright or very low light.</span>
+        </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>2. Raise humidity levels when needed</h1>
+              <p>  Staying true to your plant's natural environment will help your plant thrive indoors. Most tropical plants prefer high humidity and bright to moderate, indirect light. During the dry months of winter, grouping similar plants together helps to create a more humid microclimate.<span id="dots">...</span><span id="more"></span> A humidifier can help too and it's great for humans (find more ways to increase humidity levels here). On the other hand, most desert dwellers like cacti and succulents prefer dry air and bright, direct light with no shade at all. They don't much care for humidity.</span>
+            </p>
+
+              <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+              <h1> 3. Skip Fertilization for Houseplants if You're Unsure</h1>
+              <p>Houseplants don't require fertilization unless they are struggling to grow. If you're unsure of how much or what type of fertilization to use when planting, it's better to skip that step altogether.<span id="dots">...</span><span id="more"></span> Too much fertilization may actually end up killing your plant rather than helping it.</span></p>
+
+              <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+              <h1>4. Smaller Plants Are the Fastest Growing Plants</h1>
+              <p>When buying your chosen plant, it's always better to purchase a smaller plant over a larger one. This is because a smaller plant will be able to get more established in its home and have a larger ratio of roots to top growth<span id="dots">...</span><span id="more"></span>. A larger plant will not continue to grow until its roots catch up with the top growth</span>.</p>
+
+              <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>5. Water Deeply, Rather Than Lightly and Frequently</h1>
+            <p>When you water lightly and frequently, only the top roots are able to drink the water, and your plant may not receive the fuel it needs to survive. Watering deeply, which entails watering your plants heavily with water, allows for all the roots to grab a drink.<span id="dots">...</span><span id="more"></span> To avoid overwatering, slowly water your plant and watch for when the water is not draining through the soil anymore. Once you notice this, stop there.</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>6. Don't be scared to repot</h1>
+            <p>A common misconception,"repotting" does not necessarily mean putting your plant in a new planter, but rather, changing out your plant's soil with fresh potting mix to provide new nutrients.<span id="dots">...</span><span id="more"></span> Plants typically need to be repotted every 12 to 18 months, depending on how actively they are growing. If your plant has outgrown its current planter, you can also use this as a time to size up. Choose a planter only 1 to 3 inches larger than its current container. The idea is that your plant is not swimming in soil, which may lead you to overwater, but has a little extra space to grow.</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>7. Don't Repot Your Plants by Pulling Them!</h1>
+            <p>Pulling a plant out will not only ruin the stems, leaves, and blossoms but will also tear roots. Damaged roots need to heal before they can fully take in nutrients, so pulling your plant out of its pot is never a good plan.<span id="dots">...</span><span id="more"></span> Check out our guide on repotting a plant to guarantee no damage to your plant.</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>8. Keep drainage in mind</h1>
+            <p>If you tend to have a heavy hand when watering your plants, keep drainage in mind.<span id="dots">...</span><span id="more"></span> You can opt for a planter with a drainage hole and saucer, keep your plant in a grow pot nestled inside a planter, or add lava rocks to the bottom of a planter without a hole (to create crevices for excess water to flow to). Do what works best for you! Don't be afraid to try different methods for different plants.</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>9. Always keep temperatures stable</h1>
+            <p>keep your plant's home environment as stable as possible.<span id="dots">...</span><span id="more"></span> Extreme changes can stress plants out. Keep the temperature between 65 and 85 degrees F, and avoid placing your plants near radiators, A/C units, and forced-air vents, which can create hot or cold drafts.</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>
+            <h1>10. Cut the dead stuff.</h1>
+            <p>To keep leaves growing, The Flower Shop Network says you must trim dead ends. <span id="dots">...</span><span id="more"></span>The process of pruning using scissors, pruning shears, or your hands can even be therapeutic. Bid goodbye to anything that's brown or spotted. A layer of dust on forgotten leaves blocks out sunlight, so regularly spritz plants with water and wipe down with a dry cloth.</p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+
+            <script>
+               
+                function myFunction() {
+                  var dots = document.getElementById("dots");
+                  var moreText = document.getElementById("more");
+                  var btnText = document.getElementById("myBtn");
+                
+                  if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more"; 
+                    moreText.style.display = "none";
+                  } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less"; 
+                    moreText.style.display = "inline";
+                  }
+                }
+                </script>        
+            
+    </div>
+</body>
+</html>
