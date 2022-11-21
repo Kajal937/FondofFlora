@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FondOfFlora</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=My+Soul&family=Nothing+You+Could+Do&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Julius+Sans+One&family=My+Soul&family=Nothing+You+Could+Do&family=Noto+Serif+Display:ital,wght@1,200&family=Square+Peg&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Charmonman&family=Julius+Sans+One&family=Megrim&family=My+Soul&family=Nothing+You+Could+Do&family=Noto+Serif+Display:ital,wght@1,200&family=Square+Peg&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Brygada+1918:ital@1&family=Cabin+Sketch&family=Charmonman&family=Cormorant:ital,wght@1,500&family=Julius+Sans+One&family=Megrim&family=Square+Peg&display=swap" rel="stylesheet">
+  
+    <style>
+        .plants {
+            background-color: black;
+            margin: 0px;
+            padding: 0px;
+            overflow: auto;
+            padding-top: 5px;
+            color: aliceblue;
+        }
+
+        .plants li {
+            list-style: none;
+            font-size: 17px;
+        }
+
+        .plants a {
+            color: rgb(255, 255, 255);
+            float: left;
+            list-style: none;
+            padding: 1px 4px;
+            text-decoration: none;
+            padding-bottom: 2px;
+            width: 80px;       }
+
+        .search {
+            float: right;
+            padding-top: 1px;
+            padding-bottom: 4px;
+        }
+
+        .plants img {
+            /* width: auto; */
+            width: 240px;
+            display: block;
+            margin-left: 45%;
+            border-radius: 16px;
+        }
+
+        body {
+            background-image: linear-gradient(to right, rgba(236, 243, 241, 0.814), rgba(208, 243, 172, 0.918));
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .plants h1 {
+            margin: auto;
+            padding-left: 620px;
+            font-size: 45px;
+            padding-top: 35px;
+            padding-bottom: 30px;
+            font-family: 'Julius Sans One', sans-serif;
+
+        }
+
+        .matter h1 {
+            margin: auto;
+            padding-left: 700px;
+            font-size: 35px;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            color: black;
+            font-family: 'Noto Serif Display', serif;
+
+        }
+
+        .matter p {
+            margin: auto;
+            font-family: 'Charmonman', cursive;
+            padding-left: 520px;
+            font-size: 35px;
+            padding-top: 20px;
+            padding-bottom: 30px;
+        }
+        .buy img{
+            display: block;
+            padding-left: 600px;
+        }
+        .buy h1{
+           
+            font-family: 'Noto Serif Display', serif;
+           padding-left: 475px;
+           margin: auto;
+        }
+        .buy p{
+            font-family: 'Charmonman', cursive;
+            font-size: 30px;
+            font-family: 'Cormorant', serif;
+           text-align: center;
+            font-weight: 150;
+        }
+        .invite p{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-size: 70px;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header class="plants">
+        <ul>
+            <div class="search">
+                <input type="text" name="search" id="findme" placeholder="search here">
+            </div>
+            <li><a href="">Home</a></li>
+            <!-- <li><a href="#">About us</a></li> -->
+            <li><a href="floracare.html">Flora Care</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+        </ul>
+        <img src="plant.gif" alt="oops image not find" width="25%">
+        <h1>Fond Of Flora</h1>
+    </header>
+    <div class="matter">
+        <h1>Let's plant</h1>
+        <p>"Don't judge each day by the harvest<br> you reap but by the seeds that you plant."</p>
+    </div>
+    <div class="buy">
+        <h1>Life is too short buy more and more houseplants</h1>
+        <p>Green is the prime color of the world and from which its loveliness arises!!<br> get your healthy plants at you
+            door step. we assure you a healthy and happy delivery.</p>
+        <p class="invite"><b>Invite the nature into you home with these beautiful finds</b></p>
+        <p>Sweet succulent</p>
+        <img src="succulent.gif" alt="not found" width=320px>
+        <p>Crazy Cactus</p>
+        <img src="cactus.gif" alt=" not found" width=320px>
+        <p>fantastic Fruits</p>
+        <img src="fruits.gif" alt="not found" width=320px>
+        <P>Fabulous Flowers</P>
+        <img src="flower.gif" alt="not found" width="320px">
+        <p>Baby Bonsai</p>
+        <img src="bonsai.gif" alt="not found" width="320px">
+        <p>Iconic Indoors</p>
+        <img src="vine.gif" alt="not found" width=320px height="320px">
+        <p>Classy Customised</p>
+        <img src="customised.gif" alt="not found" width=320px height="320px">
+    </div>
+    
+</body>
+
+</html>
